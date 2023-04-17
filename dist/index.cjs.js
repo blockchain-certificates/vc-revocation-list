@@ -19013,7 +19013,7 @@ class NonError extends Error {
 	static _prepareSuperMessage(message) {
 		try {
 			return JSON.stringify(message);
-		} catch {
+		} catch (e) {
 			return String(message);
 		}
 	}

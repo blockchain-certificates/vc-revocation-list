@@ -8,7 +8,8 @@
   "module": "./dist/index.es.js",
   "exports": "./lib/index.js",
   "files": [
-    "lib/**/*.js"
+    "lib/**/*.js",
+    "dist/**/*.js"
   ],
   "scripts": {
     "test": "npm run test-node",
